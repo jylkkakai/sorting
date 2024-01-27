@@ -14,5 +14,19 @@ int main() {
     bubble_sort(arr_p, 9);
     print_array(arr_p, 9);
 
+    int arr3[20] = {0};
+    arr_p = arr3;
+    random_arr(arr_p, 20);
+    print_array(arr_p, 20);
+    bubble_sort(arr_p, 20);
+    print_array(arr_p, 20);
+
+    int arr4[50] = {0};
+    arr_p = arr4;
+    random_arr(arr_p, 50);
+    print_array(arr_p, 50);
+    bubble_sort(arr_p, 50);
+    print_array(arr_p, 50);
+
     return 0;
 }
